@@ -1,0 +1,8 @@
+prefix=/home/ayush3112/kinect_ws2/install
+
+Name: freenect_launch
+Description: Description of freenect_launch
+Version: 0.4.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
