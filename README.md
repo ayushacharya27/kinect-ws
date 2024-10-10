@@ -16,8 +16,8 @@ Follow the steps below to set up the workspace and clone the necessary repositor
 
 First, create a workspace directory for your project:
 ```bash
-mkdir -p ~/kinect_ws/src
-cd ~/kinect_ws
+mkdir kinect_ws
+cd kinect_ws
 ```
 
 ### 2. Now make the source Directory
@@ -33,6 +33,11 @@ git clone https://github.com/ros-drivers/freenect_stack.git
 After this Do as Before , go to main workspace and catkin_make
 ### 3. Start Kinect Node
 Now start the Kinect node by first sourcing the devel file and then run these following commands
+sourcing devel file
+```bash
+source devel/setup.bash
+```
+After this to start the kinect node paste these following commands
 ```bash
 roslaunch freenect_launch freenect.launch
 ```
