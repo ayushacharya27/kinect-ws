@@ -29,9 +29,14 @@ mkdir src
 cd src
 git clone https://github.com/ros-drivers/freenect_stack.git
 ```
-
+### 3. Make all necessay Dependencies
 After this Do as Before , go to main workspace and catkin_make
-### 3. Start Kinect Node
+```bash
+cd ..
+catkin_make
+```
+Now follow the steps ahead.
+### 4. Start Kinect Node
 Now start the Kinect node by first sourcing the devel file and then run these following commands
 sourcing devel file
 ```bash
