@@ -31,3 +31,18 @@ git clone https://github.com/ros-drivers/freenect_stack.git
 ```
 
 After this Do as Before , go to main workspace and catkin_make
+### 3. Start Kinect Node
+Now start the Kinect node by first sourcing the devel file and then run these following commands
+```bash
+roslaunch freenect_launch freenect.launch
+```
+Now in a different window u can type multiple commands on what the kinect is publishing like ,
+```bash
+rostopic list
+```
+OR For image View u can either create a Package to subscribe the kinect node otherwise run
+```bash
+rqt_image_view
+```
+Now You are good to go.
+
